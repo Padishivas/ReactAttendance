@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.reg{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.regleft{
+    display: flex;
+    width: 40%;
+}
+.regright{
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.hrline{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.hr1{
+    border: 0px solid;
+    height: 2px;
+    width: 180px;
+    background-color: rgb(223, 223, 231);
+    margin-right: 10px;
+}
+.hr2{
+    border: 0px solid;
+    height: 2px;
+    width: 180px;
+    background-color: rgb(223, 223, 231);
+}
+.hrtext{
+    color: rgb(179, 179, 183);
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.regimg{
+    height: 100vh;
+}
+.register{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 10px;
+    row-gap: 30px;
+}
+
+.inp{
+    background-color: rgb(229, 233, 232);
+    border: 0px solid;
+    height: 35px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 400px;
+}
+
+.inp:hover{
+    box-shadow: 2px 2px 2px 2px rgb(234, 155, 168);
+    background-color: #fff;
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+/* form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+} */
+
+.check{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.chkbox{
+    margin: 0.2rem 0.2rem 0 0;
+}
+
+/* form div{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    text-align:start;  
+} */
+
+/* .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+button{
+    padding:5px;
+    border: 0px solid;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(234, 155, 168);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.googtwit{
+    display: flex;
+}
+.google{
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:0px solid;
+    border-radius: 5px;
+    background-color: blue;
+    height: 35px;
+    margin-right: 30px;
+}
+.googleimg{
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+}
+.googletext{
+    background-color: blue;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.twitter{
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:0px solid;
+    border-radius: 5px;
+    background-color: rgb(223, 223, 231);
+    height: 35px;
+    width: 40px;
+}

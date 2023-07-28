@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    
+}
+.container{
+    padding-inline: 2rem;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.fpimg, .grid1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0rem;
+    height: 100%;
+    width: 100%;
+}
+
+.grid2{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

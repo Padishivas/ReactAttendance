@@ -1,0 +1,86 @@
+.scr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(88, 87, 85);
+    color:#fff;
+}
+
+
+.b1{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+}
+.dt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.ontime{
+  border: 0px solid;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #2C3F3B;
+  color: #71E6C3;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.late{
+  border: 0px solid;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color:#403C34;
+  color:#CBC381 ;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.scroll-container {
+    width: 100%;
+    height:250px;
+    overflow: auto;
+  }
+  
+  .scroll-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    height: 1000px; /* Adjust the ,height as per your content */
+  }
+  
+  /* Customize the scroll bar appearance */
+  .scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: rgb(22, 22, 22);
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
